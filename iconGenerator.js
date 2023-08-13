@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const { createCanvas } = require('canvas');
 
@@ -46,10 +48,3 @@ fs.mkdirSync('assets/icons', { recursive: true });
 
 // Generate the images
 sizes.forEach(createImage);
-
-
-
-//   This line is computing the perceived brightness of a color and determining whether the color is "light" or "dark." Here are explanations for these hard-coded numbers:
-//   1.  ﻿(r*0.299 + g*0.587 + b*0.114) > 186: This is a weighted average calculation to find the perceived brightness of a color, and it's based on the human eye's sensitivity to different colors. Our eyes are most sensitive to green, followed by red, and then blue, so each value is weighted differently—0.299 for red, 0.587 for green, and 0.114 for blue. The sum will be a value between 0 (darkest) and 255 (brightest).
-//   2.  ﻿186: This is the brightness threshold used to distinguish between "light" colors and "dark" colors. Any color with brightness above this threshold is considered light, and a darker font color (﻿black) will be used for contrast. Any color with brightness below or equal to the threshold is considered dark, and a lighter font color (﻿white) will be used.
-// These constants are used to ensure maximum contrast between the background color and text color for improved readability, based on established principles of human vision and color perception.
