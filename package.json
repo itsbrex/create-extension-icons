@@ -1,17 +1,19 @@
 {
-  "name": "placeholder-ext-icons",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "create-extension-icons",
+  "version": "1.0.1",
+  "main": "iconGenerator.js",
   "author": "Brian Roach <itsbrexnpm@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "icons": "node new-icons.js"
+    "icons": "node iconGenerator.js"
+  },
+  "bin": {
+    "icons": "./iconGenerator.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.1",
-    "jimp": "^0.22.10",
     "path": "^0.12.7"
   }
 }
