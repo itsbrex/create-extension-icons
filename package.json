@@ -1,14 +1,14 @@
 {
   "name": "create-extension-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "iconGenerator.js",
   "author": "Brian Roach <itsbrexnpm@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "create-icons": "node iconGenerator.js"
+    "icons": "node iconGenerator.js"
   },
   "bin": {
-    "icons": "./iconGenerator.js"
+    "create-ext-icons": "./iconGenerator.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
