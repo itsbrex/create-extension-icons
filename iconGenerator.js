@@ -1,5 +1,14 @@
 #!/usr/bin/env node
 
+// file: iconGenerator.js
+// Generates a uniform set of size-labeled placeholder icons to help you get started with your new chrome/web-extension.
+// Usage: 
+// `npx icons` generates all sizes of the same color and outputs them to the assets/icons folder
+// `npx icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
+
+// Size of the icon is overlaid on top of the icon to help you debug when working with multiple icons in the browser that use different sizes.
+
+
 const fs = require('fs');
 const { createCanvas } = require('canvas');
 
