@@ -6,8 +6,8 @@ Simple package to generate a uniform set of size-labeled placeholder icons to he
 - npm or Yarn
 
 ## Usage
-- `npx create-ext-icons` generates all sizes of the same color and outputs them to the assets/icons folder
-- `npx create-ext-icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
+- `npx create-extension-icons` generates all sizes of the same color and outputs them to the assets/icons folder
+- `npx create-extension-icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
 > You can also install globally with `npm i -g create-extension-icons` and run `icons` from anywhere
 
 ## Features
