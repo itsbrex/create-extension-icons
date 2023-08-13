@@ -1,16 +1,24 @@
-# dfx-icons
-
+# 🎨 Create Extension Icons
 ## Overview
-
+Simple package to generate a uniform set of size-labeled placeholder icons to help you get started when creating a new chrome/web-extension.
 ## Requirements
+- Node.js
+- npm or Yarn
 
 ## Usage
+- `npx icons` generates all sizes of the same color and outputs them to the assets/icons folder
+- `npx icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
+> You can also install globally with `npm i -g create-extension-icons` and run `icons` from anywhere
 
 ## Features
+- Generates icons of various sizes
+- Allows customization of icon sizes and colors
+- Overlays the size of the icon on top of the icon to help with debugging
 
 ## Contributing
+Contributions are welcome! Please open an issue or pull request on GitHub.
 
-If you find any bugs or want to suggest new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/issues) or a [pull request](https://github.com/dfx-icons/pulls).
+If you find any bugs or want to suggest new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/issues) or a [pull request](https://github.com/create-extension-icons/pulls).
 
 ## Contributors ✨
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
