@@ -1,4 +1,4 @@
-# 🎨 Create Extension Icons
+# 🎨 dfx-cons
 ## Overview
 Simple package to generate a uniform set of size-labeled placeholder icons to help you get started when creating a new chrome/web-extension.
 ## Requirements
@@ -6,9 +6,9 @@ Simple package to generate a uniform set of size-labeled placeholder icons to he
 - npm or Yarn
 
 ## Usage
-- `npx create-extension-icons` generates all sizes of the same color and outputs them to the assets/icons folder
-- `npx create-extension-icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
-> You can also install globally with `npm i -g create-extension-icons` and run `icons` from anywhere
+- `npx dfx-icons` generates all sizes of the same color and outputs them to the assets/icons folder
+- `npx dfx-icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
+> You can also install globally with `npm i -g dfx-icons` and run `icons` from anywhere
 
 ## Features
 - Generates icons of various sizes
@@ -16,15 +16,15 @@ Simple package to generate a uniform set of size-labeled placeholder icons to he
 - Overlays the size of the icon on top of the icon to help with debugging
 
 ## Contributing
-Contributions are welcome! Please open an issue or pull request on GitHub.
+Contributions are welcome!
 
-If you find any bugs or want to suggest new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/issues) or a [pull request](https://github.com/create-extension-icons/pulls).
+If you find any bugs or want to suggest new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/dfx-icons/issues) or a [pull request](https://github.com/itsbrex/dfx-icons/pulls).
 
 ## Contributors ✨
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/itsbrex?color=ee8449&style=flat-square)](#Contributing)
+[![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/dfx-icons?color=ee8449&style=flat-square)](#Contributing)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 

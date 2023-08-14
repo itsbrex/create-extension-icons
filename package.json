@@ -1,6 +1,6 @@
 {
-  "name": "create-extension-icons",
-  "version": "1.0.4",
+  "name": "dfx-icons",
+  "version": "1.0.0",
   "main": "iconGenerator.js",
   "author": "Brian Roach <itsbrexnpm@gmail.com>",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "test-bin": "node ./iconGenerator.js"
   },
   "bin": {
-    "create-extension-icons": "./iconGenerator.js"
+    "dfx-icons": "./iconGenerator.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
