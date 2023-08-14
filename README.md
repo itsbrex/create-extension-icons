@@ -1,6 +1,6 @@
 # 🎨 dfx-cons
 ## Overview
-Simple package to generate a uniform set of size-labeled placeholder icons to help you get started when creating a new chrome/web-extension.
+Simple package to generate a uniform set of size-labeled placeholder icons to help you get started when creating a new chrome/web-extension. I got the idea from this old archived repo [here](https://github.com/jbrudvik/chrome-extension-icon-sizes) and decided to make it a bit more customizable and easier to use.
 ## Requirements
 - Node.js
 - npm or Yarn
