@@ -1,6 +1,7 @@
 # 🎨 dfx-cons
 
 ## Overview
+![dfx-icons](https://github.com/itsbrex/dfx-icons/assets/9772694/df68be57-063c-4b17-af3b-2b598373cead)
 
 This package generates a set of uniform placeholder icons with size labels. It is designed to assist you in creating new Chrome/web extensions. The idea was inspired by an [old archived repository](https://github.com/jbrudvik/chrome-extension-icon-sizes) that stored pre-made image sizes. I turned the concept into a simple `npm` package that is modular and customizable.
 
