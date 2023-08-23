@@ -6,6 +6,9 @@
   "license": "MIT",
   "scripts": {
     "icons": "node iconGenerator.js",
+    "bump:patch": "npm version patch -m 'Upgrade version to v%s'",
+    "bump:minor": "npm version minor -m 'Upgrade version to v%s'",
+    "bump:major": "npm version major -m 'Upgrade version to v%s'",
     "test-bin": "node ./iconGenerator.js"
   },
   "bin": {
