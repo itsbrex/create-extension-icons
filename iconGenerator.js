@@ -38,6 +38,10 @@ class IconGenerator {
 
     // Create an icon for each specified size
     this.sizes.forEach((size) => this.createImage(size));
+
+    // Success message with the image sizes and filenames that were created with the file paths
+    console.log(`Successfully created icons with the following sizes and filenames:`);
+    this.sizes.forEach((size) => console.log(`Size: ${size} Filename: assets/icons/icon_${size}.png`));
   }
 
   createImage(size) {
