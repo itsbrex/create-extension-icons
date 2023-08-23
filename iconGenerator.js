@@ -40,8 +40,12 @@ class IconGenerator {
     this.sizes.forEach((size) => this.createImage(size));
 
     // Success message with the image sizes and filenames that were created with the file paths
-    console.log(`Successfully created icons with the following sizes and filenames:`);
-    this.sizes.forEach((size) => console.log(`Size: ${size} Filename: assets/icons/icon_${size}.png`));
+    console.log(`\nSuccess! ✅\n`);
+    this.sizes.forEach((size) => {
+        let sizeStr = `${size}x${size}`;
+        let paddedSizeStr = sizeStr.padEnd(9, ' ');
+        console.log(`Size: ${paddedSizeStr}--> assets/icons/icon_${size}.png`);
+    });
   }
 
   createImage(size) {
