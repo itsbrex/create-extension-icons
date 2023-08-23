@@ -1,6 +1,6 @@
 {
   "name": "dfx-icons",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "main": "iconGenerator.js",
   "author": "Brian Roach <itsbrexnpm@gmail.com>",
   "license": "MIT",
@@ -15,9 +15,6 @@
     "dfx-icons": "./iconGenerator.js"
   },
   "dependencies": {
-    "canvas": "^2.11.2",
-    "fs": "^0.0.1-security",
-    "fs-extra": "^11.1.1",
-    "path": "^0.12.7"
+    "canvas": "^2.11.2"
   }
 }
