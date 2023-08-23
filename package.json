@@ -1,6 +1,6 @@
 {
   "name": "dfx-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "iconGenerator.js",
   "author": "Brian Roach <itsbrexnpm@gmail.com>",
   "license": "MIT",
