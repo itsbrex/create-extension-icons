@@ -15,7 +15,7 @@ This package generates a set of uniform placeholder icons with size labels. It i
 
 - `npx dfx-icons` generates all sizes of the same color and outputs them to the assets/icons folder
 - `npx dfx-icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
-  > You can also install globally with `npm i -g dfx-icons` and run `icons` from anywhere. Requires node 16.2.0 so `npx` method is recommended.
+  > You can also install globally with `npm i -g dfx-icons` and run `dfx-icons` from anywhere. Requires node 16.2.0 so `npx` method is recommended.
 
 ## Features
 
