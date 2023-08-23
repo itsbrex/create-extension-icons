@@ -6,8 +6,8 @@ This package generates a set of uniform placeholder icons with size labels. It i
 
 ## Requirements
 
-- Node.js
-- npm or Yarn
+- Node.js `16.2.0` to install globally (using `npx` is easier if you're using a new version of `node`.)
+- `npm` or `yarn`
 
 ## Usage
 
