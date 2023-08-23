@@ -1,6 +1,6 @@
 # 🎨 dfx-cons
 ## Overview
-Simple package to generate a uniform set of size-labeled placeholder icons to help you get started when creating a new chrome/web-extension. I got the idea from this old archived repo [here](https://github.com/jbrudvik/chrome-extension-icon-sizes) and decided to make it a bit more customizable and easier to use.
+This package generates a set of uniform placeholder icons with size labels. It is designed to assist you in creating new Chrome/web extensions. The idea was inspired by an [old archived repository](https://github.com/jbrudvik/chrome-extension-icon-sizes) that stored pre-made image sizes. I turned the concept into a simple `npm` package that is modular and customizable.
 ## Requirements
 - Node.js
 - npm or Yarn
@@ -8,7 +8,7 @@ Simple package to generate a uniform set of size-labeled placeholder icons to he
 ## Usage
 - `npx dfx-icons` generates all sizes of the same color and outputs them to the assets/icons folder
 - `npx dfx-icons --sizes 16 48 128 --random` generates only the specified sizes with random colors
-> You can also install globally with `npm i -g dfx-icons` and run `icons` from anywhere
+> You can also install globally with `npm i -g dfx-icons` and run `icons` from anywhere. Requires node 16.2.0 so `npx` method is recommended.
 
 ## Features
 - Generates icons of various sizes
@@ -21,7 +21,7 @@ Contributions are welcome!
 If you find any bugs or want to suggest new features, please feel free to contribute by submitting an [issue](https://github.com/itsbrex/dfx-icons/issues) or a [pull request](https://github.com/itsbrex/dfx-icons/pulls).
 
 ## Contributors ✨
-Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/github/all-contributors/itsbrex/dfx-icons?color=ee8449&style=flat-square)](#Contributing)
